@@ -42,6 +42,8 @@ def get_FRED(name, series, start_date):
 
 FRED_metrics = {'CPI': 'CPIAUCSL', 
                 'Unemployment': 'UNRATE',
+                'Initial Claims': 'ICSA',
+                'Continued Claims': 'CCSA',
                 'PCE': 'PCE',
                 'PCE Price Index': 'PCEPI',
                 'PCE Core Price Index': 'PCEPILFE',
